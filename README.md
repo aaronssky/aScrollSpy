@@ -40,9 +40,8 @@ normal mode:
   </pre>
 <h3>Settings Parameters</h3>
 <strong>target</strong>
-<pre><code>类型：Boolean
+<pre><code>类型：Query对象 (若用jquery方式初始化，则不需设置)
 默认值：$([])
-类型：jQuery对象 (若用jquery方式初始化，则不需设置)
 设置滚动监听的目标，记录各个目标的位置</code>
 </pre>
 
