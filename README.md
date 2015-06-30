@@ -51,3 +51,9 @@ normal mode:
 调整监听目标的所在高度偏移值</code>
 </pre>
 
+<strong>formatter</strong>
+<pre><code>类型：function
+默认是保存各个target中 data-spyname 的值作为相应区域传递，即return $(this).data("spyname");
+若自己定义,可return元素其它参数或属性</code>
+</pre>
+
