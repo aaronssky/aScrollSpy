@@ -13,6 +13,6 @@
 </div>
 <h3>Html code</h3>
 <pre>
-    <img src="http://pic.chukou1.com/0/0_ae5b09.png">
+    <img src="http://pic.chukou1.com/0/0_35df70.png">
   </pre>
 <h3>JS code</h3>
