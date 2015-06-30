@@ -64,3 +64,13 @@ normal mode:
 第二个参数是当前目标target的JQ对象</code>
 </pre>
 
+<h3>Return Parameters</h3>
+<strong>$.aScrollSpy</strong>
+<pre><code>初始化aScrollSpy后，其实例化对象的引用可用$.aScrollSpy获取，
+对象提供了如下属性/方法:
+
+$.aScrollSpy.currentName // 获取当前target的formatter后传入的name
+
+$.aScrollSpy.getTargetDataByName( string )
+//根据name获取target的信息，返回{ offsetTop : 1234（记录的target偏移值）, target : (当前到达的对象)}</code>
+</pre>
