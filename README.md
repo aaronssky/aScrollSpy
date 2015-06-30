@@ -1,7 +1,7 @@
 # <a href="http://aaronssky.duapp.com/aScrollSpy/">aScrollSpy</a>
 
 <h2>Introduction</h2>
-<p><strong>aScrollSpy</strong> is a plugin can make effects when scrolling to the position of the targets.</p>
+<p><strong>aScrollSpy</strong> is a plugin based on jQuery can make effects when scrolling to the position of the targets.</p>
 
 <h2>Usage</h2>
 <h3>Including file:</h3>
