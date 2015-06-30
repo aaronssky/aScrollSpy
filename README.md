@@ -53,7 +53,14 @@ normal mode:
 
 <strong>formatter</strong>
 <pre><code>类型：function
-默认是保存各个target中 data-spyname 的值作为相应区域传递，即return $(this).data("spyname");
+默认是保存各个target中 data-spyname 的值作为相应区域传递，即 { return $(this).data("spyname"); }
 若自己定义,可return元素其它参数或属性</code>
+</pre>
+
+<strong>callback</strong>
+<pre><code>类型：function
+滚动条滚动到不同目标范围后触发的<strong>回调函数</strong>，可用以设置对应name的响应元素
+该函数的第一个参数是目标target的name，对应formatter中return的值
+第二个参数是当前目标target的JQ对象</code>
 </pre>
 
