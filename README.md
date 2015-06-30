@@ -45,3 +45,9 @@ normal mode:
 设置滚动监听的目标，记录各个目标的位置</code>
 </pre>
 
+<strong>offset</strong>
+<pre><code>类型：int（单位px）
+默认值：0
+调整监听目标的所在高度偏移值</code>
+</pre>
+
