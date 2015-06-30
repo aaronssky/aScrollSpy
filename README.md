@@ -22,13 +22,7 @@ normal mode:
 <pre>
     <code>
       var settings = {
-            target: $(".J_Anchor"),
-            offset: -50,
-            formatter: function() {
-                //默认是保存target中 data-spyname 的值作为相应区域传递，也可以自己定义
-                return $(this).data("spyname");
-            },
-            callback: function(spyName, currentObj) { }
+            ...
         };
       var spy = aScrollSpy(settings);
     </code>
@@ -38,12 +32,7 @@ normal mode:
   <pre>
     <code>
       var settings = {
-            offset: -50,
-            formatter: function() {
-                //默认是保存target中 data-spyname 的值作为相应区域传递，也可以自己定义
-                return $(this).data("spyname");
-            },
-            callback: function(spyName, currentObj) { }
+           ...
         };
       $(".J_Anchor").aScrollSpy(settings);
     </code>
