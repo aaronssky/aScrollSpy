@@ -17,11 +17,25 @@
   </pre>
 <h3>JS code</h3>
 <strong>Initialize Method:</strong>
-normal:
+<Br>
+normal mode:
 <pre>
     <code>
       var spy = aScrollSpy({
             target: $(".J_Anchor"),
+            offset: -50,
+            formatter: function() {
+                //默认是保存target中 data-spyname 的值作为相应区域传递，也可以自己定义
+                return $(this).data("spyname");
+            },
+            callback: function(spyName, currentObj) { }
+        });
+    </code>
+  </pre>
+  jQuery mode:
+  <pre>
+    <code>
+      $(".J_Anchor").aScrollSpy({
             offset: -50,
             formatter: function() {
                 //默认是保存target中 data-spyname 的值作为相应区域传递，也可以自己定义
